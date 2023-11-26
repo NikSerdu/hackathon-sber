@@ -25,3 +25,7 @@
 Арсен Ислямов - design
 
 Шевкие Меметова - design
+
+## Видеодемонстрация проекта
+https://drive.google.com/file/d/1A-59QoggwoFT8oRC3U09ZjYcQsl29EW7/view?usp=sharing
+[![Watch the video]](https://drive.google.com/file/d/1A-59QoggwoFT8oRC3U09ZjYcQsl29EW7/view?usp=sharing)
