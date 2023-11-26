@@ -15,6 +15,7 @@
   cd backend
   docker compose up —build
 ```
+Просмотр страницы: http://localhost:3000
 ## Команда Крымские
 Сердученко Николай - frontend
 
