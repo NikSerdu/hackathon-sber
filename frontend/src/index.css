@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: auto;
+  background: linear-gradient(
+    135deg,
+    rgba(8, 10, 16, 1) 32%,
+    rgba(14, 88, 71, 1) 93%
+  );
+}
+
+textarea:not(:focus) {
+  background: none;
+  border: 1px solid green;
+}
