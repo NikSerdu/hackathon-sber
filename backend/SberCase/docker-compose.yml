@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  backend:
+    container_name: sber-backend
+    build: ./backend
+    ports:
+      - "5000:80"
+    networks:
+      - sber-net
+  algorithm:
+    container_name: sber-algorithm
+    build: ./algorithm
+    ports:
+      - "5001:8000"
+    networks:
+      - sber-net
+
+networks:
+  sber-net:
+    driver: bridge
