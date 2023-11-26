@@ -15,4 +15,9 @@
   cd backend
   docker compose up —build
 ```
-    
+## Команда Крымские
+Сердученко Николай - frontend
+Юсуф Якубов - backend
+Андрей Гацко - backend
+Арсен Ислямов - design
+Шевкие Меметова - design
