@@ -3,16 +3,23 @@ version: '3'
 services:
   backend:
     container_name: sber-backend
-    build: ./backend
+    build: ./backend/backend
     ports:
       - "5000:80"
     networks:
       - sber-net
   algorithm:
     container_name: sber-algorithm
-    build: ./algorithm
+    build: ./backend/algorithm
     ports:
       - "5001:8000"
+    networks:
+      - sber-net
+  frontend:
+    container_name: sber-frontend
+    build: ./frontend
+    ports:
+      - "3000:3000"
     networks:
       - sber-net
 
